@@ -1,0 +1,14 @@
+[project]
+name = "ai-reviewer-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.2",
+    "openreview-py>=1.44.0",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+]
