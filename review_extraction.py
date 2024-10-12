@@ -13,7 +13,7 @@ review_name = venue_group.content['review_name']['value']
 
 reviews = [
     {
-        'submission_id': s.number,
+        'submission_id': s.id,
         'summary': note.content['summary']['value'],
         'soundness': note.content['soundness']['value'],
         'presentation': note.content['presentation']['value'],
